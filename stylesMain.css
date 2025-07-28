@@ -1,0 +1,51 @@
+/* index.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f8f9fa; /* Optional: adds a light background */
+}
+
+.search form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.search input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
